@@ -1,5 +1,5 @@
-// Package loader provides a light weight async script loading and
-// callback execution upon completion. It provides go.h compatible HTML.
+// Package loader provides async script loading and callback execution
+// upon completion. It provides go.h compatible HTML.
 package loader
 
 import (
