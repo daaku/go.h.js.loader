@@ -4,7 +4,7 @@ package loader
 
 import (
 	"encoding/json"
-	"github.com/nshah/go.h"
+	"github.com/daaku/go.h"
 	"log"
 )
 
