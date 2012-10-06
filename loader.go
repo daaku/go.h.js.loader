@@ -24,6 +24,10 @@ type HTML struct {
 }
 
 func (l *HTML) HTML() (h.HTML, error) {
+	if len(l.Resource) == 0 {
+		return nil, nil
+	}
+
 	script := ""
 	for _, t := range l.Resource {
 		script += getScript(t)
